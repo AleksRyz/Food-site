@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <!-- Мета тег X-UA-Compatible отвечает за браузеры Microsoft IE8 IE9 IE10 IE11.. -->
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!-- Мета тег viewport отвечает за "оптимизацию" под разные размеры устройства. -->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- ==========AOS css================== -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+   <!-- ==========font awesome================== -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <!-- ================ CSS ================= -->
+   <link rel="stylesheet" href="css/style.css">
+
+
+
+   <title>food</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <!-- ===== HEADER ===== -->
+      <header class="header">
+         <div class="header__row">
+            <a href="#" class="logo"><img src="img/logo-img.png" alt="logo"></a>
+            <div id="menu-burger" class="fas fa-hamburger menu-burger"></div>
+            <nav class="header__menu">
+               <ul class="header__list">
+                  <li class="header__item "><a href="#home">home</a></li>
+                  <li class="header__item"><a href="#about">about</a></li>
+                  <li class="header__item"><a href="#menu">menu</a></li>
+                  <li class="header__item"><a href="#popular">popular</a></li>
+                  <li class="header__item"><a href="#gallery">gallery</a></li>
+                  <li class="header__item"><a href="#order">order</a></li>
+               </ul>
+            </nav>
+         </div>
+      </header>
+      <!-- ================ MAIN ================ -->
+      <main class="main">
+         <!-- ================ Home ================ -->
+         <section class="home" id="home">
+            <div class="home__content" data-aos="fade-right">
+               <h3>We believe good food offer great smile</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quam consequatur esse, eos neque
+                  molestias tenetur commodi minima sapiente explicabo tempore labore rem nobis sequi quidem
+                  necessitatibus, ut impedit nulla!</p>
+               <a href="#"><button class="btn">get started</button></a>
+            </div>
+            <div class="home__image" data-aos="fade-up">
+               <img src="img/home-img.png" alt="dish">
+            </div>
+         </section>
+
+         <!-- ================ About ================ -->
+         <section class="about" id="about">
+            <div class="about__image" data-aos="fade-right"></div>
+            <div class="about__content" data-aos="fade-left">
+               <h3>a word about us</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quam consequatur esse, eos neque
+                  molestias tenetur commodi minima sapiente explicabo tempore labore rem nobis sequi quidem
+                  necessitatibus, ut impedit nulla!</p>
+               <a href="#"><button class="btn">learn more</button></a>
+            </div>
+         </section>
+
+         <!-- ================ Menu ================ -->
+         <section class="menu" id="menu">
+            <div class="heading">
+               <h2>our delicious <span>menu</span></h2>
+            </div>
+            <ul class="menu__list" data-aos="fade-down">
+               <li class="menu__item btn" data-src="img/menu1.jpg">breacfast</li>
+               <li class="menu__item btn" data-src="img/menu2.jpg">lunch</li>
+               <li class="menu__item btn" data-src="img/menu3.jpg">dinner</li>
+               <li class="menu__item btn" data-src="img/menu4.jpg">desert</li>
+            </ul>
+            <div class="menu__row">
+
+               <div class="menu__image" data-aos="fade-left">
+                  <img src="img/menu2.jpg" id="menu-img" alt="dish-menu">
+               </div>
+
+               <div class="menu__content">
+                  <div class="menu__info">
+                     <h3> <span>01.</span> we serve best food in the country </h3>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam provident expedita maxime dicta
+                        consectetur exercitationem incidunt quam sapiente? Modi sed at sunt, dolore et assumenda eveniet
+                        eligendi atque laudantium possimus.</p>
+                  </div>
+                  <div class="menu__info">
+                     <h3> <span>02.</span> we serve best food in the country </h3>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam provident expedita maxime dicta
+                        consectetur exercitationem incidunt quam sapiente? Modi sed at sunt, dolore et assumenda eveniet
+                        eligendi atque laudantium possimus.</p>
+                  </div>
+                  <div class="menu__info">
+                     <h3> <span>03.</span> we serve best food in the country </h3>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam provident expedita maxime dicta
+                        consectetur exercitationem incidunt quam sapiente? Modi sed at sunt, dolore et assumenda eveniet
+                        eligendi atque laudantium possimus.</p>
+                  </div>
+                  <div class="menu__info">
+                     <h3> <span>04.</span> we serve best food in the country </h3>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam provident expedita maxime dicta
+                        consectetur exercitationem incidunt quam sapiente? Modi sed at sunt, dolore et assumenda eveniet
+                        eligendi atque laudantium possimus.</p>
+                  </div>
+               </div>
+
+            </div>
+         </section>
+
+         <!-- ================ Popular ================ -->
+         <section class="popular" id="popular">
+            <div class="heading">
+               <h2>most <span>popular</span> foods</h2>
+            </div>
+            <div class="popular__content">
+
+               <div class="popular__box" data-aos="fade-right">
+                  <img src="img/product-1.jpg" alt="product-1">
+                  <h3>delicious food</h3>
+                  <div class="box__stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                  </div>
+                  <div class="box__price">$30.00</div>
+                  <a href="#"> <button class="btn">add to cart</button></a>
+               </div>
+
+               <div class="popular__box" data-aos="fade-left">
+                  <img src="img/product-2.jpg" alt="product-2">
+                  <h3>delicious food</h3>
+                  <div class="box__stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                  </div>
+                  <div class="box__price">$30.00</div>
+                  <a href="#"> <button class="btn">add to cart</button></a>
+               </div>
+
+               <div class="popular__box" data-aos="fade-right">
+                  <img src="img/product-3.jpg" alt="product-3">
+                  <h3>delicious food</h3>
+                  <div class="box__stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                  </div>
+                  <div class="box__price">$30.00</div>
+                  <a href="#"> <button class="btn">add to cart</button></a>
+               </div>
+
+               <div class="popular__box" data-aos="fade-left">
+                  <img src="img/product-4.jpg" alt="product-4">
+                  <h3>delicious food</h3>
+                  <div class="box__stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                  </div>
+                  <div class="box__price">$30.00</div>
+                  <a href="#"> <button class="btn">add to cart</button></a>
+               </div>
+
+            </div>
+         </section>
+
+         <!-- ================ Gallery ================ -->
+         <section class="gallery" id="gallery">
+            <div class="heading">
+               <h2>our food<span> gallery</span> </h2>
+            </div>
+            <div class="gallery__content">
+
+               <div class="gallery__box" data-aos="fade-up">
+                  <img src="img/img1.jpg" alt="dish-box">
+                  <h3>delicious food</h3>
+               </div>
+               <div class="gallery__box" data-aos="fade-up">
+                  <img src="img/img2.jpg" alt="dish-box">
+                  <h3>delicious food</h3>
+               </div>
+               <div class="gallery__box" data-aos="fade-up">
+                  <img src="img/img3.jpg" alt="dish-box">
+                  <h3>delicious food</h3>
+               </div>
+               <div class="gallery__box" data-aos="fade-up">
+                  <img src="img/img4.jpg" alt="dish-box">
+                  <h3>delicious food</h3>
+               </div>
+               <div class="gallery__box" data-aos="fade-up">
+                  <img src="img/img5.jpg" alt="dish-box">
+                  <h3>delicious food</h3>
+               </div>
+               <div class="gallery__box" data-aos="fade-up">
+                  <img src="img/img6.jpg" alt="dish-box">
+                  <h3>delicious food</h3>
+               </div>
+
+            </div>
+         </section>
+
+         <!-- ================ Order ================ -->
+         <section class="order" id="order">
+            <div class="heading">
+               <h2>make on<span> order</span> </h2>
+            </div>
+            <div class="order__row">
+
+               <form class="order__form" action="#" data-aos="fade-right">
+                  <input type="text" placeholder="your name" class="order__form-box">
+                  <input type="email" placeholder="your email" class="order__form-box">
+                  <input type="password" placeholder="your password" class="order__form-box">
+                  <input type="number" placeholder="your number" class="order__form-box">
+                  <textarea name="text1" cols="30" rows="10" class="order__form-box address"
+                     placeholder="your address"></textarea>
+                  <input type="submit" value="order now" class="btn">
+               </form>
+
+               <div class="order__image" data-aos="fade-left">
+                  <img src="img/form-img.jpg" alt="order-img">
+               </div>
+
+            </div>
+         </section>
+
+      </main>
+      <!-- ===== FOOTER ===== -->
+      <div class="footer">
+
+         <div class="footer__container">
+
+            <div class="footer__box">
+               <h3>contact info</h3>
+               <p> <i class="fas fa-map-marker-alt"></i> Russia, Moscow </p>
+               <p> <i class="fas fa-envelope"></i> example@gmail.com </p>
+               <p> <i class="fas fa-phone"></i> +123-456-7890 </p>
+               <p> <i class="fas fa-phone"></i> +111-222-333 </p>
+            </div>
+
+            <div class="footer__box">
+               <h3>branch location</h3>
+               <a href="#">russia</a>
+               <a href="#">USA</a>
+               <a href="#">france</a>
+               <a href="#">germany</a>
+            </div>
+
+            <div class="footer__box">
+               <h3>quick links </h3>
+               <a href="#">home</a>
+               <a href="#">about</a>
+               <a href="#">menu</a>
+               <a href="#">popular</a>
+               <a href="#">gallery</a>
+               <a href="#">order</a>
+            </div>
+
+            <div class="footer__box">
+               <h3>follow us</h3>
+               <a href="#">instagram</a>
+               <a href="#">facebook</a>
+               <a href="#">twitter</a>
+               <a href="#">linkedin</a>
+            </div>
+
+         </div>
+
+         <h2 class="footer__sign">create by <a href="#">mr. web designer</a> all rights reserved. </h2>
+
+      </div>
+
+   </div>
+   <!-- ===== AOS ===== -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+   <!-- ===== JQUERRY ===== -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <!-- ===== MAIN JS ===== -->
+   <script src="js/main.js"></script>
+
+</body>
+
+</html>
